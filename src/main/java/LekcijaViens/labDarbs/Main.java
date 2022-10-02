@@ -82,7 +82,7 @@ public class Main {
         rezultats = 5*(3+7)/2;
         System.out.println(rezultats);
 // Šis vajadzīgs mājas darbam (izmantojot kontakenāciju
-        System.out.println(valstsNosaukums + iedzivotajuSkaits + iedzivotaji + platiba);
+        //System.out.println(valstsNosaukums + iedzivotajuSkaits + iedzivotaji + platiba);
 
         //izmantojot string formātu otrs veids, kā izdarīt mājas darbu, bet jāskatās diskordā
 
