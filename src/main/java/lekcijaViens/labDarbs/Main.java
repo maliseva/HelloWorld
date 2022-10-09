@@ -1,4 +1,4 @@
-package LekcijaViens.labDarbs;
+package lekcijaViens.labDarbs;
 
 public class Main {
     public static void main(String[] args) {
@@ -85,6 +85,18 @@ public class Main {
         //System.out.println(valstsNosaukums + iedzivotajuSkaits + iedzivotaji + platiba);
 
         //izmantojot string formātu otrs veids, kā izdarīt mājas darbu, bet jāskatās diskordā
+
+        //Trīs parametri karam
+
+        String koks = "koks";
+        String kokaSuga = "apse";
+        int augstums = 23;
+        double apkartmers = 32.5;
+        float saknuKaklaAugstums = 1.3F;
+        boolean vaiIrCirsanasVecums = true;
+
+        System.out.println(kokaSuga + "s augstums ir " + augstums + ", apkartmērs " + apkartmers + ", vai var cirst? " + vaiIrCirsanasVecums);
+
 
 
 

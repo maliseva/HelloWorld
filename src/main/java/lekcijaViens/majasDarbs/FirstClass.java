@@ -1,4 +1,4 @@
-package LekcijaViens.majasDarbs;
+package lekcijaViens.majasDarbs;
 
 public class FirstClass {
     public static void main(String[] args) {
