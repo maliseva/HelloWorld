@@ -98,16 +98,37 @@ public class HomeWorkTwo {
 
 
         //5. uzdevums
-//        printBusinessCard(12,13,14);
-//        printBusinessCard(1,4,2);
-//        printBusinessCard(3,5,1);
+        printBusinessCard();
+        printBusinessCard();
+        printBusinessCard();
+
+        //6.uzdevums
+        printBusinessCard2("Gatis", "Ozoliņš", "+371 29785634", 1981);
+        printBusinessCard2("Juziks", "Miglāns", "+371 28003571", 2000);
+
+
 
     }
 
     //5. uzdevums
-    public static void printBusinessCard(int pirmais, int otrais, int treshais) {
-        System.out.println(pirmais);
-        System.out.println(otrais);
-        System.out.println(treshais);
+    public static void printBusinessCard () {
+        System.out.println("Vizītkarte");
+        System.out.println("##############");
+        System.out.println("Vārds: Kārlis");
+        System.out.println("Uzvārds: Kalniņš");
+        System.out.println("Telefona numurs: +371 28342617");
+        System.out.println("Dzimšanas gads: 1956");
+        System.out.println("##############");
     }
+
+    public static void printBusinessCard2 (String vards, String uzvards, String telefonaNumurs, int dzimsanasGads) {
+        System.out.println("Vizītkarte");
+        System.out.println("##############");
+        System.out.println("Vārds: " + vards);
+        System.out.println("Uzvārds: " + uzvards);
+        System.out.println("Telefona numurs: " + telefonaNumurs);
+        System.out.println("Dzimšanas gads: " + dzimsanasGads);
+        System.out.println("##############");
+    }
+
 }
