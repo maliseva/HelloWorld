@@ -170,7 +170,6 @@ public class LaboratorijasDarbsDivi {
 
 
 
-
 //        System.out.println("Hello, lekcija 2!");
 //
 //        // if ir ja, var būt arī if else, ja nenostrādā if, tad jāstrādā else.
